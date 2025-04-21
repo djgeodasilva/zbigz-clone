@@ -1,71 +1,36 @@
-# ZbigZ Clone (zbigz-clone)
+# zbigz-clone
 
-Clone simplificado do ZbigZ usando ruTorrent como backend.
+**zbigz-clone** é uma implementação simplificada do serviço **ZbigZ**, utilizando o **ruTorrent** como backend para download de torrents. Ele oferece uma interface web onde os usuários podem inserir **magnet links** ou **arquivos .torrent** para baixar arquivos diretamente através do servidor, sem precisar de um cliente torrent local.
 
 ## Funcionalidades
-- Envio de magnet links ou arquivos `.torrent`
-- Interface web simples
-- Integração com ruTorrent
+- **Interface web simples** para envio de magnet links e arquivos .torrent.
+- **Integração com ruTorrent**: todos os downloads são gerenciados através do backend ruTorrent.
+- **Acesso remoto via navegador** para monitorar o status e gerenciar os downloads.
 
-## Instalação
-```bash
-chmod +x install.sh
-sudo ./install.sh
-```
+## Tecnologias Usadas
+- **PHP** para a interface de upload.
+- **ruTorrent** como cliente de torrent.
+- **Nginx** para servir a aplicação web.
 
-## Acesso
-Após instalar, acesse:
-```
-http://<SEU-IP>/zbigz-clone/
-```
-Descrição do Repositório:
+## Instruções de Instalação
 
-zbigz-clone é uma implementação simplificada do serviço ZbigZ, utilizando o ruTorrent como backend para download de torrents.
-Ele oferece uma interface web onde os usuários podem inserir magnet links ou arquivos .torrent para baixar arquivos diretamente através do servidor,
-sem precisar de um cliente torrent local.
+1. **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/zbigz-clone.git
+    cd zbigz-clone
+    ```
 
-Funcionalidades:
-Interface web simples para envio de magnet links e arquivos .torrent.
+2. **Instale as dependências e configure o ambiente:**
+    ```bash
+    chmod +x install.sh
+    sudo ./install.sh
+    ```
 
-Integração com ruTorrent: todos os downloads são gerenciados através do backend ruTorrent.
+3. **Acesse via navegador:**
+    ```
+    http://<SEU-IP>/zbigz-clone/
+    ```
 
-Acesso remoto via navegador para monitorar o status e gerenciar os downloads.
+---
 
-Tecnologias Usadas:
-PHP para a interface de upload.
-
-ruTorrent como cliente de torrent.
-
-Nginx para servir a aplicação web.
-
-Instruções de Instalação:
-Clone o repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/djgeodasilva/zbigz-clone.git
-cd zbigz-clone
-
-
-Instale as dependências e configure o ambiente:
-
-bash
-
-Copiar
-
-Editar
-
-chmod +x install.sh
-
-sudo ./install.sh
-
-Acesse via navegador:
-
-perl
-
-Copiar
-
-Editar
-
-http://<SEU-IP>/zbigz-clone/
+Este formato pode ser copiado diretamente para o arquivo **README.md** do seu repositório no GitHub. Se precisar de mais ajustes ou alterações, estou aqui para ajudar!

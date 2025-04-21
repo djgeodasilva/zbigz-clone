@@ -41,7 +41,7 @@ Clone o repositório:
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/zbigz-clone.git
+git clone https://github.com/djgeodasilva/zbigz-clone.git
 cd zbigz-clone
 Instale as dependências e configure o ambiente:
 

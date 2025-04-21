@@ -19,7 +19,10 @@ Após instalar, acesse:
 http://<SEU-IP>/zbigz-clone/
 ```
 Descrição do Repositório:
-zbigz-clone é uma implementação simplificada do serviço ZbigZ, utilizando o ruTorrent como backend para download de torrents. Ele oferece uma interface web onde os usuários podem inserir magnet links ou arquivos .torrent para baixar arquivos diretamente através do servidor, sem precisar de um cliente torrent local.
+
+zbigz-clone é uma implementação simplificada do serviço ZbigZ, utilizando o ruTorrent como backend para download de torrents.
+Ele oferece uma interface web onde os usuários podem inserir magnet links ou arquivos .torrent para baixar arquivos diretamente através do servidor,
+sem precisar de um cliente torrent local.
 
 Funcionalidades:
 Interface web simples para envio de magnet links e arquivos .torrent.

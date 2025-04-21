@@ -43,16 +43,26 @@ Copiar
 Editar
 git clone https://github.com/djgeodasilva/zbigz-clone.git
 cd zbigz-clone
+
+
 Instale as dependências e configure o ambiente:
 
 bash
+
 Copiar
+
 Editar
+
 chmod +x install.sh
+
 sudo ./install.sh
+
 Acesse via navegador:
 
 perl
+
 Copiar
+
 Editar
+
 http://<SEU-IP>/zbigz-clone/
